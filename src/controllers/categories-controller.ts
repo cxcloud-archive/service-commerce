@@ -4,9 +4,9 @@ import { Categories } from '@cxcloud/commerce';
 
 @Path('/categories')
 export class CategoriesController {
-  @Tags('commerce', 'categories')
+  @Tags('commerce', 'products', 'categories')
   @GET
-  fetchAll() {
+  getCategories() {
     return Categories.fetchAll();
   }
 

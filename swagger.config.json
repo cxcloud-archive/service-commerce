@@ -1,10 +1,10 @@
 {
   "swagger": {
-    "basePath": "/api/v1",
+    "basePath": "/api/commerce/v1",
     "outputDirectory": "./dist",
     "entryFile": "./src/index.ts",
     "name": "service-commerce",
-    "description": "CXCloud Commerce Service Demo",
+    "description": "A CXCloud Microservice",
     "license": "ISC",
     "produces": ["application/json"],
     "version": "0.0.1",

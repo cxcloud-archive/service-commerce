@@ -1,6 +1,6 @@
 # service-commerce
 
-CXCloud Commerce Service Demo
+A CXCloud Microservice
 
 This is a [CXCloud](https://docs.cxcloud.com) project.
 

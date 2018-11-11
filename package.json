@@ -1,7 +1,7 @@
 {
   "name": "service-commerce",
   "version": "0.1.0",
-  "description": "CXCloud Commerce Service Demo",
+  "description": "A CXCloud Microservice",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc && npm run swagger",
@@ -20,17 +20,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cxcloud-demos/service-commerce.git"
+    "url": "git+https://github.com/sallar/service-commerce.git"
   },
   "author": {
-    "email": "sallar@cxcloud.com",
+    "email": "sallar.kaboli@gmail.com",
     "name": "Sallar Kaboli"
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cxcloud-demos/service-commerce/issues"
+    "url": "https://github.com/sallar/service-commerce/issues"
   },
-  "homepage": "https://github.com/cxcloud-demos/service-commerce#readme",
+  "homepage": "https://github.com/sallar/service-commerce#readme",
   "dependencies": {
     "@buttercup/generator": "^1.0.1",
     "@cxcloud/commerce": "^1.0.1",

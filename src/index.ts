@@ -2,6 +2,7 @@ import * as express from 'express';
 import * as cors from 'cors';
 import * as config from 'config';
 import * as path from 'path';
+import * as os from 'os';
 import * as bodyParser from 'body-parser';
 import { Server } from 'typescript-rest';
 import { logger } from './utils/logger';
@@ -23,7 +24,9 @@ app.disable('x-powered-by');
 // Health Check
 app.get('/api/commerce', (req, res) => {
   res.json({
-    health: 'OK'
+    health: 'OK',
+    uptime: process.uptime(),
+    hostname: os.hostname()
   });
 });
 
