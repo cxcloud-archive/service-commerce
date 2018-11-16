@@ -1,20 +1,6 @@
 {
   "port": 4003,
-  "host": "demo.cxcloud.com",
   "debug": {
     "logLevel": "debug"
-  },
-  "commerceTools": {
-    "authHost": "https://auth.sphere.io",
-    "apiHost": "https://api.sphere.io",
-    "projectKey": "tieto-sample-data-2",
-    "admin": {
-      "clientId": "L-SUxcLWKDI1Po8NMN73DKQg",
-      "clientSecret": "2YvFGrS_elAF-jGBwppmEsJiwyJUO91C"
-    },
-    "user": {
-      "clientId": "EbOcy541Hi8sUG2pPSg6Fhoo",
-      "clientSecret": "kakIG50Z1JOYwmcuYLLGhS858eyWZPtZ"
-    }
   }
 }
