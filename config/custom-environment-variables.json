@@ -1,0 +1,13 @@
+{
+  "commerceTools": {
+    "projectKey": "COMMERCE_TOOLS_PROJECT_KEY",
+    "admin": {
+      "clientId": "COMMERCE_TOOLS_ADMIN_CLIENT_ID",
+      "clientSecret": "COMMERCE_TOOLS_ADMIN_CLIENT_SECRET"
+    },
+    "user": {
+      "clientId": "COMMERCE_TOOLS_USER_CLIENT_ID",
+      "clientSecret": "COMMERCE_TOOLS_USER_CLIENT_SECRET"
+    }
+  }
+}

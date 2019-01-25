@@ -9,3 +9,28 @@ deployment:
   env:
     - name: NODE_ENV
       value: production
+    - name: COMMERCE_TOOLS_PROJECT_KEY
+      valueFrom:
+        secretKeyRef:
+          name: prod-commercetools
+          key: projectKey
+    - name: COMMERCE_TOOLS_ADMIN_CLIENT_ID
+      valueFrom:
+        secretKeyRef:
+          name: prod-commercetools
+          key: adminClientId
+    - name: COMMERCE_TOOLS_ADMIN_CLIENT_SECRET
+      valueFrom:
+        secretKeyRef:
+          name: prod-commercetools
+          key: adminClientSecret
+    - name: COMMERCE_TOOLS_USER_CLIENT_ID
+      valueFrom:
+        secretKeyRef:
+          name: prod-commercetools
+          key: userClientId
+    - name: COMMERCE_TOOLS_USER_CLIENT_SECRET
+      valueFrom:
+        secretKeyRef:
+          name: prod-commercetools
+          key: userClientSecret
